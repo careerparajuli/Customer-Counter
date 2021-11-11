@@ -34,3 +34,11 @@ function reset(){
     countInside= 0;
     console.log("Reset pressed");
 }
+
+//Listen for clicks on the save button and resets counters to 0.
+function save(){
+  countInside = countEnter- countLeft;
+  document.getElementById("display-data").innerText += "People Entered:  "+countEnter+" People Left: " + countLeft +" People Inside: "+ countInside+ "\n";
+  reset();
+  console.log("Saved pressed");
+}
