@@ -39,3 +39,7 @@ button {
 #reset-btn {
     background: darkblue;
 }
+
+#save-btn {
+    background: brown;
+}
